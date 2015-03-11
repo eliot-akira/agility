@@ -1,6 +1,6 @@
 ## Agility.js
 
-This is an extended fork of the [original project](https://github.com/arturadib/agility), which is no longer in active development. The goal is to keep this compact MVC library updated for production use.
+This is an extended fork of the [original project](https://github.com/arturadib/agility). The goal is to keep this compact MVC library updated for production use.
 
 **Extended features**
 
@@ -17,8 +17,7 @@ This is an extended fork of the [original project](https://github.com/arturadib/
 **To do**
 
 - New documentation
-- Consolidate event management
-- Implement test suite from original
 - Refactor and optimize
+- Implement tests from original
 - Make availble on npm?
 
