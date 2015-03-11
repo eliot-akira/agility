@@ -1,0 +1,37 @@
+{
+  "name": "Agility",
+  "version": "0.3.0",
+  "description": "JavaScript library for modular, event-oriented UI",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "*",
+    "browserify-shim": "*",
+    "del": "^1.1.1",
+    "gulp": ">=3.0",
+    "gulp-bytediff": ">=0.0",
+    "gulp-cache": ">=0.0",
+    "gulp-concat": ">=2.0",
+    "gulp-imagemin": ">=1.0",
+    "gulp-jshint": ">=1.0",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-plumber": ">=0.0",
+    "gulp-rename": ">=0.0",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": ">=1.0",
+    "gulp-uglify": ">=0.0",
+    "gulp-util": "^3.0.1",
+    "gulp-watch": ">=2.0",
+    "require-dir": ">=0.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "jquery": "global:jQuery"
+  }
+}
