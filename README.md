@@ -21,3 +21,21 @@ This is an extended fork of the [original project](https://github.com/arturadib/
 - Implement tests from original
 - Make availble on npm?
 
+### Basics
+
+#### Agility object $$
+
+Factory function: verbose and compact syntax
+
+#### Model
+
+Methods: get, set, ...
+
+#### View 
+
+Template: direct, indirect, or inline
+
+#### Events
+
+Model and DOM events
+
